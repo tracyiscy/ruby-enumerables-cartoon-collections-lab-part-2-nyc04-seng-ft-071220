@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls.any?{
     |index|
     if planeteer_calls==index
-      index
+      planeteer_calls
     else
       nil
     end
