@@ -4,7 +4,7 @@ def find_valid_calls(planeteer_calls)
   # Return the first valid call found, or return nil if no valid calls are found
   valid_calls.any?{|index|
     if planeteer_calls==index
-      planeteer_calls
+      puts planeteer_calls
     else
       nil
     end
