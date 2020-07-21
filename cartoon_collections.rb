@@ -29,5 +29,4 @@ def find_valid_calls(planeteer_calls)
   (planeteer_calls&valid_calls).select{
     |index| index
   }
-  }
 end
